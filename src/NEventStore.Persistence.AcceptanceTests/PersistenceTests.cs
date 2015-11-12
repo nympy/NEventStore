@@ -299,7 +299,7 @@ namespace NEventStore.Persistence.AcceptanceTests
                 commit.BucketId,
                 commit.StreamId,
                 commit.StreamRevision,
-                Guid.NewGuid(),
+                commit.CommitId,
                 commit.CommitSequence,
                 commit.CommitStamp,
                 commit.Headers,
